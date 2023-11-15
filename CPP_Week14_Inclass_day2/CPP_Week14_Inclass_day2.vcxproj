@@ -139,8 +139,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CustomerReader.cpp" />
     <ClCompile Include="EndUser.cpp" />
     <ClCompile Include="pr2.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CustomerReader.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
